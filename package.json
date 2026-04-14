@@ -1,0 +1,41 @@
+{
+  "name": "cytoscape-vsdx",
+  "version": "1.0.1",
+  "description": "Export Cytoscape.js graphs to Visio VSDX format",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cytoscape",
+    "vsdx",
+    "visio",
+    "export",
+    "graph"
+  ],
+  "author": "Shantesh Sindgi",
+  "license": "MIT",
+  "dependencies": {
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "cytoscape": "^3.33.2",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.2"
+  }
+}
