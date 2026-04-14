@@ -29,6 +29,14 @@
   ],
   "author": "Shantesh Sindgi",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShanteshSindgi/cytoscape-vsdx.git"
+  },
+  "homepage": "https://github.com/ShanteshSindgi/cytoscape-vsdx#readme",
+  "bugs": {
+    "url": "https://github.com/ShanteshSindgi/cytoscape-vsdx/issues"
+  },
   "dependencies": {
     "jszip": "^3.10.1"
   },
