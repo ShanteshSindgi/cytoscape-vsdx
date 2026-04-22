@@ -22,10 +22,15 @@
   },
   "keywords": [
     "cytoscape",
+    "cytoscape.js",
+    "cytoscape-extension",
     "vsdx",
     "visio",
     "export",
-    "graph"
+    "graph",
+    "diagram",
+    "network",
+    "client-side"
   ],
   "author": "Shantesh Sindgi",
   "license": "MIT",
