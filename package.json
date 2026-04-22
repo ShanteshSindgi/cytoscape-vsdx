@@ -1,6 +1,6 @@
 {
   "name": "cytoscape-vsdx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Export Cytoscape.js graphs to Visio VSDX format",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
