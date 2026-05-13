@@ -1,7 +1,19 @@
 # cytoscape-vsdx
+[![npm version](https://img.shields.io/npm/v/cytoscape-vsdx)](https://www.npmjs.com/package/cytoscape-vsdx)
+[![license](https://img.shields.io/npm/l/cytoscape-vsdx)](LICENSE)
 
-Export [Cytoscape.js](https://js.cytoscape.org/) graphs to Visio VSDX format entirely on the client side.
+Export Cytoscape.js graphs and network diagrams to Microsoft Visio `.vsdx` format entirely on the client side.
 
+## Features
+
+- Export Cytoscape.js graphs to Visio `.vsdx`
+- Fully client-side export
+- Editable Microsoft Visio output
+- Supports nodes, edges, labels, and styles
+- Supports compound/group nodes
+- Supports node background images
+- Preserves edge arrows and line styles
+  
 ## Installation
 
 ```bash
@@ -45,10 +57,20 @@ Lower-level function that builds the Visio page XML from extracted node/edge dat
 
 Returns a `PageBuildResult` with the XML string and page dimensions.
 
+## Why cytoscape-vsdx?
+
+Most Cytoscape.js export tools only support PNG or SVG exports.
+
+`cytoscape-vsdx` allows exporting Cytoscape.js diagrams into editable Microsoft Visio `.vsdx` files while preserving graph structure and styling.
+
 ## Requirements
 
 - Browser environment (uses Canvas API for image conversion)
 - Cytoscape.js 3.x
+
+## Keywords
+
+Cytoscape.js, cytoscape-vsdx, VSDX, Microsoft Visio, graph export, network diagrams, Visio exporter, Cytoscape Visio export, JavaScript VSDX library
 
 ## License
 
